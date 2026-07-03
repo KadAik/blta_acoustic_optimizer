@@ -1,0 +1,8 @@
+# BTLA Acoustic Optimizer — dependencies
+# Flexible lower-bound pins so pip installs versions with prebuilt wheels for
+# your Python (including 3.13). Do NOT hard-pin numpy/scipy to old versions —
+# those have no 3.13 wheels and would fail to install.
+streamlit>=1.32
+numpy>=1.26
+scipy>=1.12
+plotly>=5.19
