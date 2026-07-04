@@ -112,7 +112,7 @@ if st.button(
         comp = result["composition"]
         m = result["metrics"]
 
-        st.subheader("Composition optimale", divider="─")
+        st.subheader("Composition optimale", divider="gray")
         c1, c2, c3, c4 = st.columns(4)
         c1.metric("Latérite", f"{comp[0]*100:.1f}%")
         c2.metric("Ciment", f"{comp[1]*100:.1f}%")
